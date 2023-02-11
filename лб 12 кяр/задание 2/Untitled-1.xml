@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog>
+<cd>
+<surname>Медвед</surname>
+<mark>8</mark>
+</cd>
+<cd>
+<surname>Колдун</surname>
+<mark>3</mark>
+</cd>
+<cd>
+<surname>Дамад</surname>
+<mark>7</mark>
+</cd>
+<cd>
+<surname>Шум</surname>
+<mark>10</mark>
+</cd>
+</catalog>

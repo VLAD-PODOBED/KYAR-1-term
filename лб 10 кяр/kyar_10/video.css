@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+video{
+    width: 177px;
+    height: 100px;
+}
+@media (max-width: 560px) {
+nav{
+    display: flex;
+}
+.container{
+    align-items: center;
+}
+.container nav:hover .hide{
+    display: flex;
+    flex-flow: column wrap;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.punkt_1{
+    text-align: center;
+    background: rgb(198, 210, 218);
+}
+.menu div{
+    border: 2px solid silver;
+    margin: 0px;
+    align-items: center;
+}
+.hide{
+    display: none;
+    background: rgb(198, 210, 218);
+}
+.hide div{
+    border: 0px;
+}
+.media{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.p2{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-around;
+}
+}
+
+
+
+
+
+@media (min-width: 560px) {
+    .container{
+        display: flex;
+    }
+    .container nav{
+        display: flex;
+        border: 2px solid silver;
+        margin: 3px;
+    }
+    
+    .menu{
+        flex: 1;
+        flex-direction: column;
+
+    }
+    .media{
+        flex: 2;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .p1{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .p2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}

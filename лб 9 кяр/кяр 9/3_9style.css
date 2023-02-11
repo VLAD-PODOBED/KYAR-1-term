@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+div .forphoto{
+    padding: 10px;
+}

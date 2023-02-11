@@ -1,0 +1,25 @@
+@keyframes backim {
+    20% {
+    background-image: url(706x1024_0xac120003_16908352161615825702.jpg);
+    }
+    40% {
+    background-image: url(728x1005_1_53cb5b23ddf449530d9d6c1f1137b5d5@742x1024_0xac120003_621021211615825702.jpg);
+    }
+    60% {
+    background-image: url(Arhimed.jpg);
+    }
+    80% {
+    background-image: url(cbgNSFSKPmQWmatAqvA0LA-default.jpg);
+    }
+    100% {
+    background-image: url(-Max_Planck-theoretischer_Physiker-Begr_nder_der_Q.jpg);
+    }
+    }
+    .anime {
+        height: 900px;
+        width: 900px;
+        animation-name: backim;
+        animation-duration: 10s;
+        animation-delay: 1ms;
+        animation-iteration-count: infinite;
+        }

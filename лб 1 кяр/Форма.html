@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>
+  <body>
+  <meta charset="utf-8">
+  <title>Формы</title>
+ <body>
+  <fieldset>
+ <legend>Оформить заказ</legend>
+ <label>Имя    <input type="text" required></label><br>
+ <label>Телефон<input type="text" required></label><br>
+ <label>Адрес<input type="text" cols="48" rows="8"> </label><br>
+  <p><b>Способы оплаты</b></p>
+  <p><input type="radio" name="answer" value="a1">Наличными<br>
+  <input type="radio" name="answer" value="a2">Пластиковая карта<br>
+  <input type="radio" name="answer" value="a3">Безналичный расчёт</p>
+  <legend>Желаемый день доставки</legend>
+  <p><select>
+    <option>понедельник</option>
+    <option>вторник</option>
+    <option>среда</option>
+    <option>четверг</option>
+    <option>пятница</option>
+    <option>суббота</option>
+    <option>воскресенье</option>
+  </select></p>
+  <legend>Дополнительно</legend>
+  <label>Перед доставкой свяжитесь со мной  <input type="checkbox" required></label><br>
+  <label>Курьер должен быть трезвым  <input type="checkbox" required></label><br><br>
+  <input type="submit">   
+  </fieldset>
+ </body>
+</html>

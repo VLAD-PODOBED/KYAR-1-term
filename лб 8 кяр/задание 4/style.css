@@ -1,0 +1,18 @@
+.nav li a {background: url(facultet.png) no-repeat 0 0;
+float: center;
+}
+.nav .a a:hover {background-position: 0  0px;}
+.nav .b a:hover {background-position: 0 -30px;}
+.nav .c a:hover {background-position: 0 -90px;}
+.nav .d a:hover {background-position: 0 -60px;}
+.nav a {
+    display: inline-block; 
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+    background-color: yellow;
+    text-decoration: none;
+    color: blue;
+    width:100px;
+    }   
+    .nav li { display: inline;
+    text-align: right; }

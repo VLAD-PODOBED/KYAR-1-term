@@ -1,0 +1,28 @@
+.container2{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap
+}
+.div2 {
+    order: 1;
+    align-self: flex-end;
+    flex: 1 1 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    }
+    .div3 {
+        order: 1;
+        align-self: flex-end;
+        flex: 1 1 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    margin: 5px;
+        }

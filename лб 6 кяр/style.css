@@ -1,0 +1,65 @@
+body{
+    background-image: url(https://www.belstu.by/gallery/523/mrxcyoj1s3q.jpg);
+    background-origin:padding-box ;
+    background-clip:padding-box ;
+    background-size:150px;
+    background-attachment:fixed;
+    background-position: right top;
+    background-repeat: no-repeat;
+    word-spacing: 1px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 20px;
+}
+li {
+    background-image: url(https://sun9-14.userapi.com/impf/bLFLgq6kEHyAdsjr_l1nHmP0xVnsc9rXzar7WQ/ZWPDJhwDUAs.jpg?size=403x604&quality=96&sign=128d7a090dee06c9ea8c7b2e4a2db2e5&type=album);
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    }
+.leftimg{
+ float:left;
+ margin: 7px 7px 7px 0;
+ height: 150px;
+}
+.rightimg{
+    float: right;
+    margin: 7px 7px 7px 0;
+    height: 150px;
+}
+p.layer1{
+    color: rgb(22, 209, 22);
+   font-family:"Astakhov First Simple";
+    font-size: 15px;
+}
+p.layer2{
+    color: rgb(255, 0, 255);
+   font-family:"Arial";
+    font-size: 15px;
+}
+p.layer3{
+    color: #40E0D0;
+   font-family:"Arial";
+    font-size: 15px;
+}
+figure {
+    display : inline-block;
+    width : 250px;;
+    vertical-align: top;
+    text-align: center;
+    height: 150px;
+}
+img{
+    display : inline-block;
+    width : 250px;
+    vertical-align: top;
+    text-align: center;
+    height: 150px;
+}
+figcaption {
+ color: rgb(0, 0, 0); /* Цвет текста */
+}

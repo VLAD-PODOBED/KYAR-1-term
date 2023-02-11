@@ -1,0 +1,177 @@
+body{
+    height: 5000px;
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  animation-direction: infinite;
+  animation: aea 4s infinite;
+}
+img{
+height: 100px;
+width: 100px;
+}
+
+h2{
+  text-align: center;
+  font-size: 35px;
+  animation-direction: infinite;
+  animation: aaa 4s infinite;
+}
+
+h3{
+  text-align: center;
+  font-size: 35px;
+  animation-direction: infinite;
+  animation: a 4s infinite;
+}
+
+h4{
+  text-align: center;
+  font-size: 35px;
+  animation-direction: infinite;
+  animation: aaaa 4s infinite;}
+
+h5{
+  text-align: center;
+  font-size: 35px;
+  animation-direction: infinite;
+  animation: aaaaa 4s infinite;
+}
+
+.layer1{
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+}
+.layer2{
+    transform-style: preserve-3d;
+    transform: rotateY(45deg);
+}
+.layer3{
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+    perspective: 100px; 
+}
+.layer4{
+    transform-style: preserve-3d;
+    transform: rotateY(-45deg);
+}
+.layer1:hover{
+    transition: 4s;
+    transform:translate(200px, 200px) scale(2) ;
+}
+.layer2:hover{
+    transform: rotate(45deg) ;
+}
+.layer3:hover{
+    transform: translate(50px);
+}
+.layer4:hover{
+    transform:rotate(-20deg);
+}        
+p {
+    animation: color-change 20s infinite;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: rgb(255, 0, 200); }
+  }
+@keyframes awa {
+  0% { left: 0; top: 0; }
+  100%{left: 200px;top: 0;} 
+ }
+.layer10{
+  display : inline-block;
+  width : 100px;
+  vertical-align: top;
+  text-align: center;
+  height: 100px;
+  margin-right: 60px; 
+  margin-bottom: 60px;
+  position: relative;
+  animation: awa 4s linear infinite;
+}
+@keyframes eye {
+  0% { left: 0;top: 0; }
+  100%{left: 0;top: -200px;}
+
+ }
+.layer11{
+  display : inline-block;
+  width : 100px;
+  vertical-align: top;
+  text-align: center;
+  height: 100px;
+  margin-right: 60px; 
+  margin-bottom: 60px;
+  position: relative;
+  animation: eye 4s linear infinite;
+}
+@keyframes box  {
+  0% { left: 0; top: 0; }
+  25% { left: -200px; top: 0; }
+  50% { left: -200px; top: -200px; }
+  100% { left: 0; top: 0; }
+}
+.layer12{
+  display : inline-block;
+  width : 100px;
+  vertical-align: top;
+  text-align: center;
+  height: 100px;
+  margin-right: 60px; 
+  margin-bottom: 60px;
+  position: relative;
+animation: box 4s linear infinite;
+}
+@keyframes around {
+  0% { left: 0; top: 0; }
+  25% { left: 200px; top: 0; }
+  50% { left: 200px; top: 200px; }
+  75% { left: 0; top: 200px; }
+  100% { left: 0; top: 0; }
+  }
+.layer13{
+  display : inline-block;
+  width : 100px;
+  vertical-align: top;
+  text-align: center;
+  height: 100px;
+  margin-right: 60px; 
+  margin-bottom: 60px;
+  position: relative;
+animation: around 4s linear infinite; 
+}
+.nav{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+}
+.nava a {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: rgb(252, 255, 60);
+  text-decoration: none;
+  color: rgb(0, 182, 15);
+  width: 100px;
+  right: 0;
+    top: 0;
+    text-align: right;
+  }
+  .nava li { display: inline; }
+  .scnd:hover {
+    color: #8B0000;
+  }
+  .thrd:visited {
+    color: green;
+  }
+  .fth:active {
+    color: rgb(184, 134, 11);
+  }

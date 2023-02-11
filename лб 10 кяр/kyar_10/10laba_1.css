@@ -1,0 +1,58 @@
+@import url(import.css) (min-width:760px) and (max-width:900px);
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.container div{
+    border: 1px solid silver ;
+    padding: 12px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.zogl{
+    text-align: center;
+    width: 100%;
+    border: 1px solid silver ;
+    margin-bottom: 5px;
+}
+.box-1{
+    flex: 1;
+    margin-right: 5px;
+}
+.box-2{
+    flex: 1;
+    margin-right: 5px;
+}
+.box-3{
+    flex: 1;
+    margin-right: 5px;
+}
+.box-4{
+    flex: 1;
+    margin-right: 5px;
+}
+.box-5{
+    flex: 1;
+}
+
+.for_photo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+ @media (min-width:480px) and (max-width: 760px ) {
+     .img_2{
+        width: 200px;
+        height: 200px;
+     }
+     .pp2{
+         font-size: 20px;
+     }
+ }

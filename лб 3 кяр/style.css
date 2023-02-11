@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Caveat; 
+    src: url(Caveat.ttf); 
+   }
+   h1 {
+    font-family: Caveat;
+    font-weight:bold;
+    text-shadow :45px;
+    font-variant: small-caps;
+    text-align :center;
+   }
+   @font-face{
+   font-family: Exo2; 
+    src: url(Exo2.ttf); }
+   h2 {
+    font-family: Exo2;
+    margin-bottom:1.2em;
+    margin-top:0.2rem ;
+    text-indent:25px;
+    text-align:left;
+    text-indent:0%;
+   }
+   @font-face{
+    font-family: Comfortaa; 
+     src: url(Comfortaa.ttf); }
+    p {  
+    font-family: Comfortaa;  
+    text-indent:25px;
+    text-align:justify;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:200%;
+    font-size: 20px;
+    }
+    p::first-letter{
+        font-size: 45px;
+color:aliceblue;
+background: hsla(275, 100%, 10%, 1);
+font-weight: 600;
+    }
+    li {
+        color: rgb(47, 0, 255);  
+        font-size: 25px;    
+       }
+       li span {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+       }

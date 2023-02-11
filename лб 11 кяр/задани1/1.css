@@ -1,0 +1,24 @@
+note{ display:block;
+    text-align:center;
+    margin:10px 20px 10px 20px;
+    margin-top:12pt;
+    font-size:15pt} 
+to{display:block;
+        text-align:center;
+        font-weight:bold;    
+}
+form{
+    display:block;
+    margin:50px 100px;
+     border-style:solid;
+    border-color:#0d9409;
+}
+heading{
+    display:block;
+    text-align:center;
+}
+body{
+    display:block;
+    text-align:center;
+    font-weight:bold;
+}

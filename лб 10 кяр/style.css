@@ -1,0 +1,165 @@
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap:wrap
+    }
+    .div1 {
+        order: 1;
+        align-self: flex-end;
+        flex: 1 1 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+            margin: 5px;
+        }
+        .container2{
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: row; 
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap:wrap
+        }
+        .div2 {
+            order: 1;
+            align-self: flex-end;
+            flex: 1 1 300px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            margin: 5px;
+            }
+            .div3 {
+                order: 1;
+                align-self: flex-end;
+                flex: 1 1 300px;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                padding: 5px;
+            margin: 5px;
+                }
+                .div4{
+                    order: 1;
+                    align-self: flex-end;
+                    flex: 1 1 300px;
+                    border: 1px solid black;
+                    display: flex;
+                    justify-content: center;
+                    padding: 5px;
+            margin: 5px;
+                    }
+.container2{
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-direction: row; 
+ flex-direction: row;
+justify-content: center;
+flex-wrap:wrap
+}
+.div5{
+order: 1;
+align-self: flex-end;
+flex: 1 1 300px;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+padding: 5px;
+margin: 5px;
+    }
+    .div6{
+        order: 1;
+        align-self: flex-end;
+        flex: 1 1 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px;
+            }
+            .toggle-button {
+                text-align: center;
+                display: block;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 700;
+                padding: 10px 20px;
+                background-color: #000099;
+                color: #fff;
+                width: 20%;
+                }
+                #menu-mobile:checked + nav .toggle-button{
+                color: #FFF7B2;
+                }
+                #menu-mobile:checked + nav .main-menu {
+                display: block;
+                }
+                
+                @media screen and (min-width: 640px) {
+                .toggle-button {
+                display: none;
+                }
+                .main-menu {
+                display: block;
+                margin: 0 auto;
+                padding: 0 15%;
+                background-color: #000099;
+                height: 60px;
+                }
+                
+                .main-menu li {
+                width: calc(100% / 4);
+                text-align: center;
+                display: inline-block;
+                margin-right: -4px;
+                padding-top: 10px;
+                }
+                .main-menu a {
+                display: inline-block;
+                margin-right: -4px;
+                font-size: 18px;
+                font-weight: 700;
+                background-color: #000099;
+                text-decoration: none;
+                color: #fff;
+                text-transform: capitalize;
+                border-bottom: 0;
+                }
+                }
+
+                
+                .for_photo{
+                    display: flex;
+                    flex-flow: row wrap;
+                }
+                
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+                 @media (min-width:480px) and (max-width: 760px ) {
+                     .img_2{
+                        width: 200px;
+                        height: 200px;
+                     }
+                     .pp2{
+                         font-size: 20px;
+                     }
+                 }
+                 @media  (max-width: 480px ) {
+                    .img_2{
+                       width: 50px;
+                       height: 50px;
+                    }
+                    .pp2{
+                        font-size: 20px;
+                    }
+                }
+
+        
